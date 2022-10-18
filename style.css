@@ -1,0 +1,123 @@
+*{
+    margin: 0 0;
+}
+body{
+    background-color: #f7eded;
+}
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#navMid{
+    display: flex;
+    font-family: sans-serif;
+}
+#navMid div:first-of-type{
+    text-decoration: underline;
+    text-underline-offset:6px;
+    
+}
+#navMid div h4{
+    margin-right: 100px;
+}
+#navEnd{
+    display: flex;
+    margin-left: -20px;
+}
+#navEnd div{
+    margin-right: 30px;
+}
+#midWhole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    
+}
+#midWholePart11{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Allerta";
+}
+#midWholePart11 div ul li{
+    font-size: 17px;
+    text-align: left;
+    width: 700px;
+    margin-top: 5px;
+    list-style-position:unset;
+}
+#midWholePart11 div ul li:nth-child(2){
+    margin-top:-30px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+#monstera{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    align-items: flex-end;
+    color: rgb(29, 28, 28);
+}
+#midWholePart11 ul li:nth-child(2){
+    margin-top: -30px;
+}
+#midWholePart12{
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 30px;
+    width: fit-content;
+    background-color: #466D50;
+    padding: 8px 18px;
+    font-family: Allerta;
+}
+#midWholePart121{
+    display: flex;
+}
+#midWholePart121 div h1{
+    color: rgb(233, 228, 228);
+    font-size: 25px;
+}
+#midWholePart122 img{
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+#imgMain{
+    margin-top: 30px;
+    height: 570px;
+    width: 550px;
+}
+#midWholePart13{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.midWholePart13Parts{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.midWholePart13Parts img{
+    margin-right: 10px;
+}
+.midWholePart13Parts div h4{
+    font-weight: 800;
+    font-family: Poppins;
+    font-size: 22px;
+}
+.midWholePart13Parts div p{
+    font-family: Poppins;
+    font-size: 12px;
+    color: #656866;
+}
